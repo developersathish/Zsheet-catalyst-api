@@ -3,12 +3,9 @@ const express = require("express");
 var app = express();
 const catalyst = require("zcatalyst-sdk-node");
 const https = require('https');
-
 app.use(express.json());
-const axios = require("axios").default;
 
 const sheetDocId = 'so3zb5cc3ccefd2924a47883a11ff5cd528f2'; // Sheet Document ID
-
 
 const credentials = {
   SheetAPIConnectorz: {
