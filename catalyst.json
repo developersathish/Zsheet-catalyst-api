@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "targets": [
+      "sheet_api_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}
